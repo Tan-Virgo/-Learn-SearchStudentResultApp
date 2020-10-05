@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5EF9959-6667-49CE-80DD-95DBB11ECBCF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SearchStudentResult</RootNamespace>
+    <AssemblyName>SearchStudentResult</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\ResultDAO.cs" />
+    <Compile Include="DAO\StudentDAO.cs" />
+    <Compile Include="DAO\SubjectDAO.cs" />
+    <Compile Include="DTO\DatabaseProvider.cs" />
+    <Compile Include="DTO\Result.cs" />
+    <Compile Include="DTO\Student.cs" />
+    <Compile Include="DTO\Subject.cs" />
+    <Compile Include="fDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDetail.Designer.cs">
+      <DependentUpon>fDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fResult.Designer.cs">
+      <DependentUpon>fResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fStatic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fStatic.Designer.cs">
+      <DependentUpon>fStatic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fStudentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fStudentList.Designer.cs">
+      <DependentUpon>fStudentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSubjectList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSubjectList.Designer.cs">
+      <DependentUpon>fSubjectList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSubjectSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSubjectSummary.Designer.cs">
+      <DependentUpon>fSubjectSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fDetail.resx">
+      <DependentUpon>fDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fResult.resx">
+      <DependentUpon>fResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fStatic.resx">
+      <DependentUpon>fStatic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fStudentList.resx">
+      <DependentUpon>fStudentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSubjectList.resx">
+      <DependentUpon>fSubjectList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSubjectSummary.resx">
+      <DependentUpon>fSubjectSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

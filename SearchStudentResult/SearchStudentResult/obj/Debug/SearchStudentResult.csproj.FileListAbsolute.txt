@@ -1,0 +1,15 @@
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\bin\Debug\SearchStudentResult.exe.config
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\bin\Debug\SearchStudentResult.exe
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\bin\Debug\SearchStudentResult.pdb
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.csprojAssemblyReference.cache
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.Properties.Resources.resources
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.csproj.GenerateResource.cache
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.csproj.CoreCompileInputs.cache
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.exe
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.pdb
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.fDetail.resources
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.fStudentList.resources
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.fSubjectList.resources
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.fSubjectSummary.resources
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.fStatic.resources
+D:\_HKI_2020_2021\CSDL NC\Demo_SQL_C#\SearchStudentResult\SearchStudentResult\obj\Debug\SearchStudentResult.fResult.resources
